@@ -1,0 +1,175 @@
+/********** About Us *********/
+.about-us{
+  position: relative;
+  top:-150px;
+  width:80%;
+  margin:auto;
+  background-color:$black1;
+
+  .row{
+     width:100%;
+     display:flex;
+     flex-wrap: nowrap;
+     padding:70px;
+
+     // Img
+     .img-about{
+         width:40%;
+     }
+
+     // About
+    .about-info{
+        width:60%;
+        color:$white;
+
+        h3{
+          font-family:$nunito;
+          font-weight:700;
+          font-size:30px;
+        }
+        hr{
+          border:none !important;
+          width:30%;
+          height:3px;
+          background-color:$principal !important;
+          opacity:1;
+        }
+        p{
+          font-family:$montserrat;
+          font-size:14px;
+          line-height:25px;
+        }
+    }
+
+  }
+}
+
+/********** Presentaciones, webinar *********/
+.brief-video{
+  width:80%;
+  margin:auto;
+  background-color:$black1;
+  padding:0px 70px;
+  padding-bottom:50px;
+
+  div.w-100{
+    position:relative;
+  }
+
+  // Hover
+  div.w-100:hover .video-reproductor{
+    opacity:1;
+  }
+
+}
+
+/********** Social slider *********/
+.social-post-slider{
+  width: 100%;
+  height: 100%;
+  overflow:hidden;
+}
+
+.swiper-slide{
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+
+  // Cards img
+  .card{
+    position: relative;
+  }
+  .card:hover .video-reproductor{opacity:1;}
+
+}
+
+/********** Social media *********/
+.social-media-container{
+  position: relative;
+  width:90%;
+  margin:80px auto;
+  padding:0px 70px;
+  padding-bottom:50px;
+  background-color:$black1;
+
+}
+
+/********** Testimonies *********/
+.testimonies-container{
+    position: relative;
+    width:80%;
+    margin:auto;
+    padding:0px 50px;
+    padding-bottom:50px;
+    background-color:$black1;
+    margin-bottom:100px;
+}
+
+.testimonies-slider{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:hidden;
+}
+
+.people-container{
+    background-color:$black1;
+    color:$white;
+    padding-top:20px;
+    .row{
+     justify-content: center;
+       img{
+          width:110px;
+          border-radius:50%;
+       }
+       p{
+          font-size:15px;
+          font-family:$montserrat;
+          line-height:30px;
+          margin-top:20px;
+       }
+       span{
+          font-family:$nunito;
+          font-size:23px;
+          font-weight:700;
+          margin-bottom:20px;
+       }
+    }
+}
+
+/******* Footer *******/
+#footer{
+   background-color:$black1;
+   margin-top:100px;
+   padding:40px 0px;
+   .social-footer{
+       width:80%;
+       margin:auto;
+
+   }
+   .footer-text p{
+      color:$white;
+      text-align: center;
+      margin-top:30px;
+      margin-bottom: 0 !important;
+      font-family:$montserrat;
+   }
+}
+
+
+

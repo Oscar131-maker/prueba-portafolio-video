@@ -1,0 +1,117 @@
+@media only screen and (max-width:978px){
+
+  /**** Menu ****/
+    #header{
+      .menu-wrapper{
+
+        // Btn menu
+        .btn-menu{
+            display:block;
+            cursor: pointer;
+            width:51px;
+            background-color:$black1;
+            border-radius: 50%;
+            display: flex;
+            justify-content:center;
+            img{
+               width:40px;
+               height:50px;
+            }
+        }
+       
+        // Menu
+        .menu{
+            position:fixed;
+            top:0;
+            right:-130%;
+            background-color:$white;
+            width:50%;
+            height:100vh;
+            box-shadow: -21px -5px 20px -21px rgba(0,0,0,0.58);
+           -webkit-box-shadow: -21px -5px 20px -21px rgba(0,0,0,0.58);
+           -moz-box-shadow: -21px -5px 20px -21px rgba(0,0,0,0.58);
+            
+            .btn-close-menu{
+               width:90%;
+               display:flex;
+               justify-content: flex-end;
+               margin:20px 0px;
+               span img{
+                   width:40px;
+               }
+            }
+  
+            .list-container{
+              flex-direction: column;
+              align-items: flex-start;
+              li{ 
+               width:85%;
+               margin-bottom:20px;
+               a{
+                 color:$black1 !important;
+                 font-size:20px;
+                 font-family:$nunito;
+                 font-weight:600;
+                 display:block;
+               }
+              }
+            }
+        }
+        
+      }
+    }
+
+    /*** About us ***/
+    .about-us .row{
+      display: flex;
+      flex-direction: column-reverse;
+      div{width: 100% !important;}
+      .about-info{
+        margin-bottom:40px;
+      }
+    }
+    
+}
+
+/** 540 **/
+@media only screen and (max-width:540px){
+   
+   // Menu
+   #header .menu-wrapper .menu{
+     width:80%;
+   }
+
+   // Header text
+   .image-header .header-text h3{
+     font-size:45px;
+   }
+
+   // About us
+   .about-us{
+     width:90%;
+     .row{padding:18px;}
+   }
+   // Portafolio
+   .brief-video{
+     width:90%;
+     padding:0px 15px;
+     padding-bottom:70px;
+   }
+
+   // Testimonies
+   .testimonies-container{
+     width:90%;
+     padding:0px 15px;
+     padding-bottom:70px;
+   }
+
+   // modal
+   .modal-container .close-modal {
+    top: 5px !important;
+    right: 5px !important;
+  }
+
+
+}
+
+
